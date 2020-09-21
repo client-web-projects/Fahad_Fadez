@@ -1,0 +1,11 @@
+.nav{
+   position: fixed;
+   margin-top: 5rem;
+   width: 100%;
+   z-index: 3;
+
+   // a:not(:last-child){
+   .nav__item:not(:last-child){   
+      margin-right: 2.1875rem;
+   }
+}

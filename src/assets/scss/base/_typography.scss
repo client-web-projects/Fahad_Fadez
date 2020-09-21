@@ -1,0 +1,24 @@
+// Typography
+ 
+// Fonts: 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@include font('Roboto', normal, 400, '../fonts/roboto-regular-webfont.woff2');
+@include font('Ogg-Roman', normal, 300, '../fonts/Ogg-Roman.otf');
+
+// Fonts:
+$raleway: 'Raleway', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$ogg: 'Ogg Roman', serif;
+
+.text--large{
+   font-size: 2.25rem; // 36px
+}
+
+.text--medium{
+   font-size: 1.875rem; // 30px
+}
+
+.text--small{
+   font-size: 1.25rem; // 20px
+}
+
