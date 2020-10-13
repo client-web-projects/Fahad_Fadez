@@ -2,13 +2,20 @@
  
 // Fonts: 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
-@include font('Roboto', normal, 400, '../fonts/roboto-regular-webfont.woff2');
-@include font('Ogg-Roman', normal, 300, '../fonts/Ogg-Roman.otf');
+// @include font('Roboto', normal, 400, '../fonts/roboto-regular-webfont.woff2');
+// @include font('Angle', normal, 400, '../fonts/angle.woff');
+// @include font('Ogg-Roman', normal, 300, '../fonts/Ogg-Roman.otf');
+
+@font-face {
+  font-family: 'Angle';
+  src: url('../fonts/angle.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/angle.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/angle.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 
 // Fonts:
 $raleway: 'Raleway', sans-serif;
-$roboto: 'Roboto', sans-serif;
-$ogg: 'Ogg Roman', serif;
+$angle: 'Angle';
 
 .text--large{
    font-size: 2.25rem; // 36px
@@ -21,4 +28,41 @@ $ogg: 'Ogg Roman', serif;
 .text--small{
    font-size: 1.25rem; // 20px
 }
+
+.text--x-small{
+   font-size: 0.875rem; // 14px
+}
+
+.text--capitalize{
+   text-transform: capitalize;
+}
+
+.font--angle{
+   font-family: $angle;
+}
+
+.font--weight-bold{
+   font-weight: bold;
+}
+
+.letter-spacing-1{
+   letter-spacing: 1px;
+}
+
+.color--brown{
+   color: $brown;
+}
+
+.color--black{
+   color: #333333;
+}
+
+.brown-on-hover{
+   transition:color 0.2s ease-out;
+
+   &:hover{
+      color: $offset;
+   }
+}
+
 

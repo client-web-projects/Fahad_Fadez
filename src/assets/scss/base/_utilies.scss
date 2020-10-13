@@ -1,3 +1,7 @@
+.d-block{
+   display: block;
+}
+
 .d-flex{
    display: flex;
 }
@@ -12,6 +16,18 @@
 
 .ai-c{
    align-items: center;
+}
+
+.o-visible{
+   overflow: visible;
+}
+
+.o-hidden{
+   overflow: hidden;
+}
+
+.l-height-0{
+   line-height: 0;
 }
 
 .ml-30{

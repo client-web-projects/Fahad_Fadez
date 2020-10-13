@@ -3,9 +3,38 @@
    margin-top: 5rem;
    width: 100%;
    z-index: 3;
+   opacity: 0;
+
+   .nav__item{
+      &:not(:last-child){
+         height: 25px;
+      }
+      
+   }
+
+   .nav__link{
+      position: relative;
+
+      &--bottom{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      transform: translateY(35%);
+      opacity: 0;
+      }
+
+   }
+   
+   &__logo{
+     .logo{
+        font-family: $angle;
+        font-size: 24px;
+     }
+
+  }
+}
 
    // a:not(:last-child){
    .nav__item:not(:last-child){   
       margin-right: 2.1875rem;
    }
-}

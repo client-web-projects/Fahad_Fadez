@@ -1,4 +1,6 @@
-
+html{
+   font-size: 16px;
+}
 
 body {
   font-family: $raleway;
@@ -6,7 +8,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow-x: auto;
   color: $white;
 }
 
@@ -14,13 +16,19 @@ a{
   color: $white;
   text-decoration: none;
   letter-spacing: 2px;
-  font-weight: 200;
+  font-weight: 300;
 
   &:hover,
   &:active{
     text-decoration: none;
    //  color: inherit;
   }
+}
+
+button{
+   padding: 0;
+   border: none;
+   background-color: transparent;
 }
 
 img{

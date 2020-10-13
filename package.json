@@ -6,7 +6,7 @@
   "dependencies": {
     "blotter": "^2.1.0",
     "bootstrap-4-grid": "^3.4.0",
-    "gsap": "^3.3.0",
+    "gsap": "^3.5.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
